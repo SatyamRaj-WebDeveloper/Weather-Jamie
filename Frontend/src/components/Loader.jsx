@@ -1,8 +1,7 @@
-// components/Loader.jsx
 export default function Loader() {
   return (
-    <div className="flex justify-center items-center p-4">
-      <div className="h-8 w-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+    <div className="flex justify-center my-6">
+      <div className="w-10 h-10 border-4 border-white/30 border-t-white rounded-full animate-spin"></div>
     </div>
   );
 }

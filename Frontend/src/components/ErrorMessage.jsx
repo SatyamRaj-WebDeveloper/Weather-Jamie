@@ -1,9 +1,9 @@
-// components/ErrorMessage.jsx
+import { AlertTriangle } from "lucide-react";
+
 export default function ErrorMessage({ message }) {
-  if (!message) return null;
   return (
-    <div className="bg-red-100 text-red-700 p-3 rounded-md text-center my-4">
-      {message}
+    <div className="flex items-center justify-center gap-2 text-red-300 bg-white/10 p-3 rounded-lg">
+      <AlertTriangle size={20} /> {message}
     </div>
   );
 }
